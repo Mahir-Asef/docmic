@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.main{
+  background: #F7F7F7;
+  /* filter: blur(800px); */
+}
+.secondary{
+  color: #642DFF;
+}
+.bg-secondary{
+  background-color:#642DFF;
+}
