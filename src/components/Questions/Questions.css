@@ -1,0 +1,44 @@
+* {
+  font-family: "Inter";
+}
+.ques-img {
+  background: url("../../images/ques.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 300px;
+  position: relative;
+}
+.que-card {
+  position: absolute;
+  width: 211px;
+  height: 58px;
+  background: #ffffff;
+  border-radius: 5px;
+  bottom: 50px;
+  left: -50px;
+}
+.light {
+  background-color: #fff0cc;
+  width: 45px;
+  height: 45px;
+}
+.q-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: justify;
+  color: #1e1e1e;
+}
+@media only screen and (max-width: 480px) {
+  .que-card {
+    position: absolute;
+    width: 211px;
+    height: 58px;
+    background: #ffffff;
+    border-radius: 5px;
+    bottom: 50px;
+    left: 10px;
+  }
+}

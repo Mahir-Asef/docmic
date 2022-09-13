@@ -1,0 +1,18 @@
+* {
+  font-family: "Inter";
+}
+.tes-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #1e1e1e;
+}
+.slick-prev:before, .slick-next:before {
+    color: #2D89FF !important;
+    font-size: 50px !important;
+}
+.slider{
+    max-width: 100% !important;
+}

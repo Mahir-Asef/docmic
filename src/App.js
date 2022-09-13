@@ -5,6 +5,7 @@ import About from './components/About/About';
 import Blog from './components/Blog/Blog';
 import Contacts from './components/Contacts/Contacts';
 import Departments from './components/Departments/Departments';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Pages from './components/Pages/Pages';
 import Home from './pages/Home';
@@ -21,7 +22,7 @@ function App() {
             <Route path="/blog" element={<Blog />} />
             <Route path="/contacts" element={<Contacts />} />
         </Routes> 
-        {/* <Footer></Footer> */}
+        <Footer></Footer>
     </div>
   );
 }

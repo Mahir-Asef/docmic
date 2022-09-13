@@ -1,0 +1,22 @@
+* {
+  font-family: "Inter";
+}
+.exp-text {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: justify;
+  color: #1e1e1e;
+}
+.img{
+    max-width: 100%;
+}
+@media only screen and (max-width:480px){
+    .exp-text {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29px;
+        text-align: start;
+        color: #1e1e1e;
+      }
+}

@@ -4,9 +4,9 @@ import './Header.css';
 const Header = () => {
     return (
         <div className='container'>
-            <nav className="navbar navbar-expand-lg nav-bg sticky-top" >
+            <nav className="navbar navbar-expand-lg nav-bg fixed-top" >
   <div className="container">
-    <Link className="navbar-brand" to="/"> <span className='text-primary'>Doc</span><span className='secondary' >mic.</span> </Link>
+    <Link className="navbar-brand fs-2" style={{fontWeight:"bold"}} to="/"> <span className='text-primary'>Doc</span><span className='secondary' >mic.</span> </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>

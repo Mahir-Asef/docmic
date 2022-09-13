@@ -6,7 +6,7 @@ import dental from '../../images/medical-icon_i-dental.png';
 import kit from '../../images/kit.png';
 const Services = () => {
     return (
-        <div className='container '>
+        <div className='container'>
             <p className='service-1 pt-5 secondary'>Our Services</p>
             <p className='service-2'>Services For Your Health</p>
             <div className='d-sm-flex  flex-sm-colum flex-lg-row justify-content-between'>

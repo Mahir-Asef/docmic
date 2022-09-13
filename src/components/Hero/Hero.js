@@ -5,7 +5,7 @@ import grp from '../../images/Group3.png';
 import { GrStatusGood } from "@react-icons/all-files/gr/GrStatusGood";
 const Hero = () => {
   return (
-    <div className="container d-sm-block d-lg-flex m-5 align-items-center justify-content-center mx-auto">
+    <div className="container d-sm-block d-lg-flex my-5 align-items-center justify-content-center mx-auto">
       <div className="">
         <h1 className="hero-h1">
           Your <span className="text-primary">Health</span> Is Our <br />
